@@ -1,0 +1,208 @@
+[{"stream_name":"stderr","time":7.200906477,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.200956804,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":8.177901712,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.177948032,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.177953859,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.177958015,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.808184692,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.808225527,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.808230911999999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.80823448,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":26.753998626,"data":"device: cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":26.754029868,"data":"outputs -\u003e /kaggle/working\n"}
+,{"stream_name":"stdout","time":71.173516356,"data":"Папка з класами: /kaggle/input/datasets/jiayuanchengala/aid-scene-classification-datasets/AID\n"}
+,{"stream_name":"stdout","time":71.173553859,"data":"Класів: 30, зображень: 10000 {'train': 8950, 'test': 600, 'val': 450}\n"}
+,{"stream_name":"stdout","time":147.363935022,"data":"torch.Size([10000, 3, 224, 224]) 1.40 GB\n"}
+,{"stream_name":"stdout","time":159.805598994,"data":"Учитель (найкращий за validation): exp5_finetune\n"}
+,{"stream_name":"stderr","time":209.691813649,"data":"Exception ignored in: \n"}
+,{"stream_name":"stderr","time":209.693423699,"data":"Exception ignored in: \u003cfunction _MultiProcessingDataLoaderIter.__del__ at 0x7ec34ec55f80\u003e\n"}
+,{"stream_name":"stderr","time":209.694507742,"data":"\u003cfunction _MultiProcessingDataLoaderIter.__del__ at 0x7ec34ec55f80\u003eException ignored in: \n"}
+,{"stream_name":"stderr","time":209.69678396,"data":"Exception ignored in: \n"}
+,{"stream_name":"stderr","time":209.696801967,"data":"\n"}
+,{"stream_name":"stderr","time":209.696807175,"data":"\n"}
+,{"stream_name":"stderr","time":209.698878439,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":209.698895066,"data":"\n"}
+,{"stream_name":"stderr","time":209.698900168,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":209.700239966,"data":"\u003cfunction _MultiProcessingDataLoaderIter.__del__ at 0x7ec34ec55f80\u003e\n"}
+,{"stream_name":"stderr","time":209.70173522,"data":"\u003cfunction _MultiProcessingDataLoaderIter.__del__ at 0x7ec34ec55f80\u003e  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1709, in __del__\n"}
+,{"stream_name":"stderr","time":209.701752076,"data":"\n"}
+,{"stream_name":"stderr","time":209.701767232,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1709, in __del__\n"}
+,{"stream_name":"stderr","time":209.703086093,"data":"\n"}
+,{"stream_name":"stderr","time":209.703103495,"data":"\n"}
+,{"stream_name":"stderr","time":209.703117747,"data":"\n"}
+,{"stream_name":"stderr","time":209.704328415,"data":"    \n"}
+,{"stream_name":"stderr","time":209.705633361,"data":"    Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":209.705665677,"data":"\n"}
+,{"stream_name":"stderr","time":209.705724967,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":209.707289874,"data":"self._shutdown_workers()\n"}
+,{"stream_name":"stderr","time":209.708495983,"data":"self._shutdown_workers()  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1709, in __del__\n"}
+,{"stream_name":"stderr","time":209.708511404,"data":"\n"}
+,{"stream_name":"stderr","time":209.708644491,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1709, in __del__\n"}
+,{"stream_name":"stderr","time":209.709770739,"data":"\n"}
+,{"stream_name":"stderr","time":209.709788349,"data":"\n"}
+,{"stream_name":"stderr","time":209.709931157,"data":"\n"}
+,{"stream_name":"stderr","time":209.71131741,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1692, in _shutdown_workers\n"}
+,{"stream_name":"stderr","time":209.711347238,"data":"\n"}
+,{"stream_name":"stderr","time":209.71135205,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1692, in _shutdown_workers\n"}
+,{"stream_name":"stderr","time":209.712544814,"data":"    \n"}
+,{"stream_name":"stderr","time":209.714071142,"data":"    self._shutdown_workers()\n"}
+,{"stream_name":"stderr","time":209.715493369,"data":"self._shutdown_workers()\n"}
+,{"stream_name":"stderr","time":209.715509938,"data":"\n"}
+,{"stream_name":"stderr","time":209.715780929,"data":"\n"}
+,{"stream_name":"stderr","time":209.716989358,"data":"    \n"}
+,{"stream_name":"stderr","time":209.718725887,"data":"      File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1692, in _shutdown_workers\n"}
+,{"stream_name":"stderr","time":209.718745562,"data":"\n"}
+,{"stream_name":"stderr","time":209.718750744,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/data/dataloader.py\", line 1692, in _shutdown_workers\n"}
+,{"stream_name":"stderr","time":209.720589808,"data":"    \n"}
+,{"stream_name":"stderr","time":209.722080862,"data":"    if w.is_alive():\n"}
+,{"stream_name":"stderr","time":209.723577102,"data":"if w.is_alive():\n"}
+,{"stream_name":"stderr","time":209.723592711,"data":"\n"}
+,{"stream_name":"stderr","time":209.72387764,"data":"\n"}
+,{"stream_name":"stderr","time":209.725222378,"data":"if w.is_alive():\n"}
+,{"stream_name":"stderr","time":209.726833871,"data":"if w.is_alive():  File \"/usr/lib/python3.13/multiprocessing/process.py\", line 160, in is_alive\n"}
+,{"stream_name":"stderr","time":209.726851547,"data":"\n"}
+,{"stream_name":"stderr","time":209.727033371,"data":"  File \"/usr/lib/python3.13/multiprocessing/process.py\", line 160, in is_alive\n"}
+,{"stream_name":"stderr","time":209.728183949,"data":"\n"}
+,{"stream_name":"stderr","time":209.728195675,"data":"\n"}
+,{"stream_name":"stderr","time":209.728289344,"data":"\n"}
+,{"stream_name":"stderr","time":209.729607351,"data":"    \n"}
+,{"stream_name":"stderr","time":209.731069423,"data":"      File \"/usr/lib/python3.13/multiprocessing/process.py\", line 160, in is_alive\n"}
+,{"stream_name":"stderr","time":209.731086969,"data":"\n"}
+,{"stream_name":"stderr","time":209.731220844,"data":"  File \"/usr/lib/python3.13/multiprocessing/process.py\", line 160, in is_alive\n"}
+,{"stream_name":"stderr","time":209.732476864,"data":"assert self._parent_pid == os.getpid(), 'can only test a child process'\n"}
+,{"stream_name":"stderr","time":209.733419506,"data":"assert self._parent_pid == os.getpid(), 'can only test a child process'\n"}
+,{"stream_name":"stderr","time":209.733434482,"data":"\n"}
+,{"stream_name":"stderr","time":209.733494266,"data":"\n"}
+,{"stream_name":"stderr","time":209.734752106,"data":"    \n"}
+,{"stream_name":"stderr","time":209.735978729,"data":"    assert self._parent_pid == os.getpid(), 'can only test a child process'\n"}
+,{"stream_name":"stderr","time":209.737318802,"data":"assert self._parent_pid == os.getpid(), 'can only test a child process'AssertionError\n"}
+,{"stream_name":"stderr","time":209.738720321,"data":"AssertionError\n"}
+,{"stream_name":"stderr","time":209.738734863,"data":"\n"}
+,{"stream_name":"stderr","time":209.738781346,"data":"\n"}
+,{"stream_name":"stderr","time":209.740187482,"data":": \n"}
+,{"stream_name":"stderr","time":209.741486119,"data":": AssertionError\n"}
+,{"stream_name":"stderr","time":209.742762239,"data":"AssertionErrorcan only test a child process\n"}
+,{"stream_name":"stderr","time":209.744133552,"data":"can only test a child process: \n"}
+,{"stream_name":"stderr","time":209.745531325,"data":": can only test a child process\n"}
+,{"stream_name":"stderr","time":209.746895652,"data":"can only test a child process\n"}
+,{"stream_name":"stderr","time":209.746910379,"data":"\n"}
+,{"stream_name":"stderr","time":209.74696487,"data":"\n"}
+,{"stream_name":"stderr","time":209.748290798,"data":"\n"}
+,{"stream_name":"stderr","time":209.748304885,"data":"\n"}
+,{"stream_name":"stderr","time":209.748352952,"data":"\n"}
+,{"stream_name":"stdout","time":214.538831987,"data":"Параметрів учня: 1,180,926; учителя (exp5_finetune): 11,191,902 -\u003e у 9.5 раза менше\n"}
+,{"stream_name":"stdout","time":221.920474528,"data":"[exp6_student] epoch  1/40  train loss 2.4772 acc 0.3087 | val loss 2.3315 acc 0.3400 f1 0.3112  (7 s)\n"}
+,{"stream_name":"stdout","time":228.0807634,"data":"[exp6_student] epoch  2/40  train loss 1.9235 acc 0.4491 | val loss 2.4526 acc 0.3289 f1 0.2902  (13 s)\n"}
+,{"stream_name":"stdout","time":234.236576657,"data":"[exp6_student] epoch  3/40  train loss 1.6332 acc 0.5113 | val loss 2.4354 acc 0.3267 f1 0.3088  (19 s)\n"}
+,{"stream_name":"stdout","time":240.43697579,"data":"[exp6_student] epoch  4/40  train loss 1.4519 acc 0.5517 | val loss 2.8625 acc 0.3422 f1 0.3191  (26 s)\n"}
+,{"stream_name":"stdout","time":246.69223824,"data":"[exp6_student] epoch  5/40  train loss 1.2914 acc 0.5943 | val loss 2.0327 acc 0.4000 f1 0.3816  (32 s)\n"}
+,{"stream_name":"stdout","time":252.989391011,"data":"[exp6_student] epoch  6/40  train loss 1.1178 acc 0.6429 | val loss 1.9899 acc 0.4378 f1 0.4289  (38 s)\n"}
+,{"stream_name":"stdout","time":259.322102792,"data":"[exp6_student] epoch  7/40  train loss 0.9901 acc 0.6857 | val loss 1.8742 acc 0.5044 f1 0.4856  (45 s)\n"}
+,{"stream_name":"stdout","time":265.703436382,"data":"[exp6_student] epoch  8/40  train loss 0.8666 acc 0.7250 | val loss 1.5176 acc 0.5711 f1 0.5667  (51 s)\n"}
+,{"stream_name":"stdout","time":272.147325995,"data":"[exp6_student] epoch  9/40  train loss 0.7832 acc 0.7523 | val loss 1.2131 acc 0.6422 f1 0.6394  (57 s)\n"}
+,{"stream_name":"stdout","time":278.607176961,"data":"[exp6_student] epoch 10/40  train loss 0.6964 acc 0.7796 | val loss 1.1654 acc 0.6800 f1 0.6786  (64 s)\n"}
+,{"stream_name":"stdout","time":285.10033637,"data":"[exp6_student] epoch 11/40  train loss 0.6334 acc 0.7987 | val loss 1.3087 acc 0.6422 f1 0.6464  (70 s)\n"}
+,{"stream_name":"stdout","time":291.662855367,"data":"[exp6_student] epoch 12/40  train loss 0.5669 acc 0.8185 | val loss 1.0539 acc 0.6844 f1 0.6926  (77 s)\n"}
+,{"stream_name":"stdout","time":298.281283542,"data":"[exp6_student] epoch 13/40  train loss 0.5193 acc 0.8375 | val loss 1.0215 acc 0.6956 f1 0.6907  (84 s)\n"}
+,{"stream_name":"stdout","time":304.937579164,"data":"[exp6_student] epoch 14/40  train loss 0.4942 acc 0.8444 | val loss 1.1103 acc 0.6756 f1 0.6715  (90 s)\n"}
+,{"stream_name":"stdout","time":311.648094967,"data":"[exp6_student] epoch 15/40  train loss 0.4437 acc 0.8581 | val loss 0.9731 acc 0.7333 f1 0.7412  (97 s)\n"}
+,{"stream_name":"stdout","time":318.400563761,"data":"[exp6_student] epoch 16/40  train loss 0.3875 acc 0.8739 | val loss 1.0632 acc 0.7000 f1 0.6969  (104 s)\n"}
+,{"stream_name":"stdout","time":325.197058557,"data":"[exp6_student] epoch 17/40  train loss 0.3855 acc 0.8747 | val loss 0.9601 acc 0.7356 f1 0.7326  (110 s)\n"}
+,{"stream_name":"stdout","time":332.023191342,"data":"[exp6_student] epoch 18/40  train loss 0.3634 acc 0.8849 | val loss 0.9244 acc 0.7311 f1 0.7284  (117 s)\n"}
+,{"stream_name":"stdout","time":338.850547197,"data":"[exp6_student] epoch 19/40  train loss 0.3306 acc 0.8924 | val loss 1.0007 acc 0.7333 f1 0.7307  (124 s)\n"}
+,{"stream_name":"stdout","time":345.591345311,"data":"[exp6_student] epoch 20/40  train loss 0.3161 acc 0.8978 | val loss 0.9500 acc 0.7533 f1 0.7490  (131 s)\n"}
+,{"stream_name":"stdout","time":352.276763731,"data":"[exp6_student] epoch 21/40  train loss 0.2900 acc 0.9069 | val loss 0.7135 acc 0.7978 f1 0.7977  (138 s)\n"}
+,{"stream_name":"stdout","time":358.936576639,"data":"[exp6_student] epoch 22/40  train loss 0.2498 acc 0.9193 | val loss 0.7062 acc 0.7889 f1 0.7837  (144 s)\n"}
+,{"stream_name":"stdout","time":365.569574498,"data":"[exp6_student] epoch 23/40  train loss 0.2402 acc 0.9223 | val loss 0.7299 acc 0.8178 f1 0.8161  (151 s)\n"}
+,{"stream_name":"stdout","time":372.186905873,"data":"[exp6_student] epoch 24/40  train loss 0.2278 acc 0.9250 | val loss 0.6496 acc 0.8200 f1 0.8187  (157 s)\n"}
+,{"stream_name":"stdout","time":378.833476829,"data":"[exp6_student] epoch 25/40  train loss 0.2003 acc 0.9341 | val loss 0.7388 acc 0.8022 f1 0.8130  (164 s)\n"}
+,{"stream_name":"stdout","time":385.468580161,"data":"[exp6_student] epoch 26/40  train loss 0.2028 acc 0.9353 | val loss 0.5799 acc 0.8400 f1 0.8404  (171 s)\n"}
+,{"stream_name":"stdout","time":392.120540475,"data":"[exp6_student] epoch 27/40  train loss 0.1741 acc 0.9432 | val loss 0.6079 acc 0.8244 f1 0.8250  (177 s)\n"}
+,{"stream_name":"stdout","time":398.783329,"data":"[exp6_student] epoch 28/40  train loss 0.1556 acc 0.9512 | val loss 0.4789 acc 0.8578 f1 0.8580  (184 s)\n"}
+,{"stream_name":"stdout","time":405.432675345,"data":"[exp6_student] epoch 29/40  train loss 0.1437 acc 0.9549 | val loss 0.5684 acc 0.8444 f1 0.8458  (191 s)\n"}
+,{"stream_name":"stdout","time":412.119999566,"data":"[exp6_student] epoch 30/40  train loss 0.1303 acc 0.9571 | val loss 0.5065 acc 0.8556 f1 0.8566  (197 s)\n"}
+,{"stream_name":"stdout","time":418.80423086,"data":"[exp6_student] epoch 31/40  train loss 0.1124 acc 0.9667 | val loss 0.4727 acc 0.8578 f1 0.8581  (204 s)\n"}
+,{"stream_name":"stdout","time":425.501816029,"data":"[exp6_student] epoch 32/40  train loss 0.1059 acc 0.9659 | val loss 0.4723 acc 0.8556 f1 0.8566  (211 s)\n"}
+,{"stream_name":"stdout","time":432.180295817,"data":"[exp6_student] epoch 33/40  train loss 0.0997 acc 0.9692 | val loss 0.4759 acc 0.8600 f1 0.8610  (217 s)\n"}
+,{"stream_name":"stdout","time":438.863839816,"data":"[exp6_student] epoch 34/40  train loss 0.0913 acc 0.9715 | val loss 0.5012 acc 0.8556 f1 0.8573  (224 s)\n"}
+,{"stream_name":"stdout","time":445.564766777,"data":"[exp6_student] epoch 35/40  train loss 0.0782 acc 0.9770 | val loss 0.4762 acc 0.8644 f1 0.8650  (231 s)\n"}
+,{"stream_name":"stdout","time":452.237121371,"data":"[exp6_student] epoch 36/40  train loss 0.0753 acc 0.9773 | val loss 0.4765 acc 0.8578 f1 0.8595  (237 s)\n"}
+,{"stream_name":"stdout","time":458.905784228,"data":"[exp6_student] epoch 37/40  train loss 0.0710 acc 0.9811 | val loss 0.4701 acc 0.8600 f1 0.8621  (244 s)\n"}
+,{"stream_name":"stdout","time":465.587793136,"data":"[exp6_student] epoch 38/40  train loss 0.0706 acc 0.9800 | val loss 0.4721 acc 0.8622 f1 0.8633  (251 s)\n"}
+,{"stream_name":"stdout","time":472.258641299,"data":"[exp6_student] epoch 39/40  train loss 0.0669 acc 0.9816 | val loss 0.4690 acc 0.8667 f1 0.8681  (257 s)\n"}
+,{"stream_name":"stdout","time":478.936493273,"data":"[exp6_student] epoch 40/40  train loss 0.0686 acc 0.9832 | val loss 0.4712 acc 0.8600 f1 0.8614  (264 s)\n"}
+,{"stream_name":"stdout","time":478.936523746,"data":"[exp6_student] найкраща епоха за val acc: 39 (0.8667), ваги -\u003e /kaggle/working/exp6_student.pt\n"}
+,{"stream_name":"stdout","time":492.062056406,"data":"[kd_T4_a0.7] epoch  1/40  train loss 18.7954 acc 0.2660 | val loss 2.4514 acc 0.2822 f1 0.2267  (11 s)\n"}
+,{"stream_name":"stdout","time":502.598359335,"data":"[kd_T4_a0.7] epoch  2/40  train loss 14.8480 acc 0.4012 | val loss 5.0447 acc 0.2489 f1 0.2104  (21 s)\n"}
+,{"stream_name":"stdout","time":513.334231266,"data":"[kd_T4_a0.7] epoch  3/40  train loss 11.6247 acc 0.4826 | val loss 3.3319 acc 0.3822 f1 0.3490  (32 s)\n"}
+,{"stream_name":"stdout","time":523.754701387,"data":"[kd_T4_a0.7] epoch  4/40  train loss 9.8576 acc 0.5368 | val loss 3.4396 acc 0.4000 f1 0.3736  (42 s)\n"}
+,{"stream_name":"stdout","time":534.288563754,"data":"[kd_T4_a0.7] epoch  5/40  train loss 8.4821 acc 0.6057 | val loss 3.8261 acc 0.3956 f1 0.4138  (53 s)\n"}
+,{"stream_name":"stdout","time":544.836388136,"data":"[kd_T4_a0.7] epoch  6/40  train loss 7.3216 acc 0.6566 | val loss 2.4798 acc 0.5244 f1 0.5131  (63 s)\n"}
+,{"stream_name":"stdout","time":555.361194923,"data":"[kd_T4_a0.7] epoch  7/40  train loss 6.3558 acc 0.7135 | val loss 3.2215 acc 0.5244 f1 0.5145  (74 s)\n"}
+,{"stream_name":"stdout","time":565.902767587,"data":"[kd_T4_a0.7] epoch  8/40  train loss 5.4720 acc 0.7517 | val loss 2.2291 acc 0.5867 f1 0.5827  (84 s)\n"}
+,{"stream_name":"stdout","time":576.45006071,"data":"[kd_T4_a0.7] epoch  9/40  train loss 4.9350 acc 0.7848 | val loss 1.5865 acc 0.6644 f1 0.6598  (95 s)\n"}
+,{"stream_name":"stdout","time":586.966164228,"data":"[kd_T4_a0.7] epoch 10/40  train loss 4.3143 acc 0.8181 | val loss 1.6245 acc 0.6711 f1 0.6627  (106 s)\n"}
+,{"stream_name":"stdout","time":597.479622561,"data":"[kd_T4_a0.7] epoch 11/40  train loss 4.0506 acc 0.8327 | val loss 1.7637 acc 0.6889 f1 0.6926  (116 s)\n"}
+,{"stream_name":"stdout","time":608.027919168,"data":"[kd_T4_a0.7] epoch 12/40  train loss 3.7547 acc 0.8483 | val loss 2.0166 acc 0.6422 f1 0.6428  (127 s)\n"}
+,{"stream_name":"stdout","time":618.51757779,"data":"[kd_T4_a0.7] epoch 13/40  train loss 3.5685 acc 0.8615 | val loss 1.2360 acc 0.7267 f1 0.7186  (137 s)\n"}
+,{"stream_name":"stdout","time":629.024894661,"data":"[kd_T4_a0.7] epoch 14/40  train loss 3.3604 acc 0.8718 | val loss 1.4204 acc 0.7200 f1 0.7132  (148 s)\n"}
+,{"stream_name":"stdout","time":639.535458478,"data":"[kd_T4_a0.7] epoch 15/40  train loss 3.2059 acc 0.8787 | val loss 1.0863 acc 0.7667 f1 0.7683  (158 s)\n"}
+,{"stream_name":"stdout","time":650.008949385,"data":"[kd_T4_a0.7] epoch 16/40  train loss 2.9875 acc 0.8971 | val loss 1.1272 acc 0.7644 f1 0.7633  (169 s)\n"}
+,{"stream_name":"stdout","time":660.516311629,"data":"[kd_T4_a0.7] epoch 17/40  train loss 2.8883 acc 0.8993 | val loss 1.0142 acc 0.7667 f1 0.7650  (179 s)\n"}
+,{"stream_name":"stdout","time":671.022964604,"data":"[kd_T4_a0.7] epoch 18/40  train loss 2.7452 acc 0.9069 | val loss 0.9965 acc 0.7800 f1 0.7772  (190 s)\n"}
+,{"stream_name":"stdout","time":681.55791422,"data":"[kd_T4_a0.7] epoch 19/40  train loss 2.6493 acc 0.9092 | val loss 0.9437 acc 0.7956 f1 0.7951  (200 s)\n"}
+,{"stream_name":"stdout","time":692.072151046,"data":"[kd_T4_a0.7] epoch 20/40  train loss 2.5351 acc 0.9174 | val loss 0.8213 acc 0.8133 f1 0.8145  (211 s)\n"}
+,{"stream_name":"stdout","time":702.592716794,"data":"[kd_T4_a0.7] epoch 21/40  train loss 2.4385 acc 0.9249 | val loss 0.6723 acc 0.8333 f1 0.8338  (221 s)\n"}
+,{"stream_name":"stdout","time":713.104278322,"data":"[kd_T4_a0.7] epoch 22/40  train loss 2.3316 acc 0.9277 | val loss 0.7681 acc 0.8133 f1 0.8157  (232 s)\n"}
+,{"stream_name":"stdout","time":723.627898423,"data":"[kd_T4_a0.7] epoch 23/40  train loss 2.3044 acc 0.9311 | val loss 0.7901 acc 0.8156 f1 0.8170  (242 s)\n"}
+,{"stream_name":"stdout","time":734.179264017,"data":"[kd_T4_a0.7] epoch 24/40  train loss 2.1901 acc 0.9375 | val loss 0.6598 acc 0.8400 f1 0.8414  (253 s)\n"}
+,{"stream_name":"stdout","time":744.70454877,"data":"[kd_T4_a0.7] epoch 25/40  train loss 2.0880 acc 0.9418 | val loss 0.6546 acc 0.8400 f1 0.8391  (263 s)\n"}
+,{"stream_name":"stdout","time":755.223481466,"data":"[kd_T4_a0.7] epoch 26/40  train loss 2.0665 acc 0.9453 | val loss 0.5870 acc 0.8533 f1 0.8525  (274 s)\n"}
+,{"stream_name":"stdout","time":765.77755016,"data":"[kd_T4_a0.7] epoch 27/40  train loss 1.9884 acc 0.9507 | val loss 0.5805 acc 0.8600 f1 0.8596  (284 s)\n"}
+,{"stream_name":"stdout","time":776.336877275,"data":"[kd_T4_a0.7] epoch 28/40  train loss 1.9206 acc 0.9520 | val loss 0.5912 acc 0.8467 f1 0.8492  (295 s)\n"}
+,{"stream_name":"stdout","time":786.906797969,"data":"[kd_T4_a0.7] epoch 29/40  train loss 1.8485 acc 0.9573 | val loss 0.6601 acc 0.8400 f1 0.8406  (305 s)\n"}
+,{"stream_name":"stdout","time":797.456112765,"data":"[kd_T4_a0.7] epoch 30/40  train loss 1.8273 acc 0.9577 | val loss 0.5931 acc 0.8533 f1 0.8547  (316 s)\n"}
+,{"stream_name":"stdout","time":808.026751916,"data":"[kd_T4_a0.7] epoch 31/40  train loss 1.8061 acc 0.9609 | val loss 0.5701 acc 0.8600 f1 0.8586  (327 s)\n"}
+,{"stream_name":"stdout","time":818.589311864,"data":"[kd_T4_a0.7] epoch 32/40  train loss 1.7502 acc 0.9646 | val loss 0.5276 acc 0.8733 f1 0.8731  (337 s)\n"}
+,{"stream_name":"stdout","time":829.196749763,"data":"[kd_T4_a0.7] epoch 33/40  train loss 1.6994 acc 0.9661 | val loss 0.5104 acc 0.8644 f1 0.8651  (348 s)\n"}
+,{"stream_name":"stdout","time":839.682444482,"data":"[kd_T4_a0.7] epoch 34/40  train loss 1.6649 acc 0.9653 | val loss 0.5074 acc 0.8689 f1 0.8686  (358 s)\n"}
+,{"stream_name":"stdout","time":850.268153349,"data":"[kd_T4_a0.7] epoch 35/40  train loss 1.6139 acc 0.9695 | val loss 0.4975 acc 0.8756 f1 0.8751  (369 s)\n"}
+,{"stream_name":"stdout","time":860.817079796,"data":"[kd_T4_a0.7] epoch 36/40  train loss 1.6357 acc 0.9677 | val loss 0.5085 acc 0.8756 f1 0.8758  (379 s)\n"}
+,{"stream_name":"stdout","time":871.362679316,"data":"[kd_T4_a0.7] epoch 37/40  train loss 1.5820 acc 0.9688 | val loss 0.4921 acc 0.8756 f1 0.8756  (390 s)\n"}
+,{"stream_name":"stdout","time":881.897497168,"data":"[kd_T4_a0.7] epoch 38/40  train loss 1.5881 acc 0.9695 | val loss 0.4872 acc 0.8756 f1 0.8755  (400 s)\n"}
+,{"stream_name":"stdout","time":892.475619634,"data":"[kd_T4_a0.7] epoch 39/40  train loss 1.5772 acc 0.9693 | val loss 0.4784 acc 0.8867 f1 0.8866  (411 s)\n"}
+,{"stream_name":"stdout","time":902.992204426,"data":"[kd_T4_a0.7] epoch 40/40  train loss 1.5656 acc 0.9701 | val loss 0.4804 acc 0.8733 f1 0.8733  (422 s)\n"}
+,{"stream_name":"stdout","time":902.992256424,"data":"[kd_T4_a0.7] найкраща епоха за val acc: 39 (0.8867), ваги -\u003e /kaggle/working/kd_T4_a0.7.pt\n"}
+,{"stream_name":"stdout","time":902.992263248,"data":"Обрано T = 4.0, α = 0.7\n"}
+,{"stream_name":"stdout","time":905.856978077,"data":"Дистиляція: T = 4.0, α = 0.7\n"}
+,{"stream_name":"stdout","time":917.567965004,"data":"аугментація: найбільше покращення — Square (+0.05), Parking (+0.05), BaseballField (+0.03) | найбільше погіршення — RailwayStation (-0.11), School (-0.10), Commercial (-0.08)\n"}
+,{"stream_name":"stdout","time":917.568002116,"data":"дистиляція: найбільше покращення — Center (+0.10), Beach (+0.06), Stadium (+0.05) | найбільше погіршення — School (-0.21), Resort (-0.08), Park (-0.07)\n"}
+,{"stream_name":"stdout","time":918.347424893,"data":"аугментація (exp3_frozen → exp4_frozen_aug): виправлено 11, нових помилок 20, чистий виграш -9 з 600\n"}
+,{"stream_name":"stdout","time":919.259871364,"data":"дистиляція (exp6_student → exp7_student_kd): виправлено 17, нових помилок 15, чистий виграш +2 з 600\n"}
+,{"stream_name":"stdout","time":949.524076624,"data":"Найточніша (test acc):       exp5_finetune — 0.903\n"}
+,{"stream_name":"stdout","time":949.524112972,"data":"Найкомпактніша (параметри):  exp6_student — 1,180,926 (4.5 МБ)\n"}
+,{"stream_name":"stdout","time":949.524119535,"data":"Найстійкіша (acc на спотв.): exp5_finetune — 0.787 (падіння 0.117)\n"}
+,{"stream_name":"stderr","time":955.33340276,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":955.333444379,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":955.523400598,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":955.523452889,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":956.287393901,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":956.653916299,"data":"[NbConvertApp] Writing 15764740 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":959.061761976,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":959.99582614,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":959.995851847,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.996179381,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.996404598,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.996598634,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.996792169,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.997514506,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.998218701,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":959.998940832,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.000464229,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.000637895,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.001075738,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.001491232,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.001922398,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.002316938,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":960.002738128,"data":"[NbConvertApp] Writing 644690 bytes to __results__.html\n"}
+]

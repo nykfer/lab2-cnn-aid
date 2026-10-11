@@ -1,0 +1,14 @@
+# датасет (див. README → Відтворення)
+data/
+# віртуальне середовище
+.venv/
+# ваги моделей — у виходах Kaggle-кернелів
+*.pt
+# кеш ембедінгів make_split.py (перераховується)
+artifacts/embeddings.npz
+# локальні виходи ноутбуків
+outputs/
+__pycache__/
+.ipynb_checkpoints/
+# методичка
+*.pdf

@@ -1,0 +1,80 @@
+[{"stream_name":"stderr","time":6.066799155,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.066845968,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.974181287,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.974231486,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.9742381909999995,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.97424308,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.619778091,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.619808336,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.619813601,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.61981766,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":23.592901778,"data":"device: cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":23.592937821,"data":"outputs -\u003e /kaggle/working\n"}
+,{"stream_name":"stdout","time":37.38270851,"data":"Папка з класами: /kaggle/input/datasets/jiayuanchengala/aid-scene-classification-datasets/AID\n"}
+,{"stream_name":"stdout","time":37.382739935,"data":"Класів: 30, зображень: 10000 {'train': 8950, 'test': 600, 'val': 450}\n"}
+,{"stream_name":"stdout","time":79.591855333,"data":"torch.Size([10000, 3, 224, 224]) 1.40 GB\n"}
+,{"stream_name":"stdout","time":102.353641652,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stderr","time":102.354654323,"data":"\r  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":102.455465985,"data":"\r  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\r 35%|███▍      | 15.5M/44.7M [00:00\u003c00:00, 162MB/s]\n"}
+,{"stream_name":"stderr","time":102.556016178,"data":"\r 35%|███▍      | 15.5M/44.7M [00:00\u003c00:00, 162MB/s]\r 83%|████████▎ | 37.0M/44.7M [00:00\u003c00:00, 199MB/s]\n"}
+,{"stream_name":"stderr","time":102.592951134,"data":"\r 83%|████████▎ | 37.0M/44.7M [00:00\u003c00:00, 199MB/s]\r100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 197MB/s]\n"}
+,{"stream_name":"stderr","time":102.657255839,"data":"\r100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 197MB/s]\n"}
+,{"stream_name":"stderr","time":102.657289629,"data":"\n"}
+,{"stream_name":"stderr","time":102.657295772,"data":"\n"}
+,{"stream_name":"stdout","time":102.86107151,"data":"Усього параметрів: 11,191,902; навчається: 15,390\n"}
+,{"stream_name":"stdout","time":109.781470022,"data":"[exp3_frozen] epoch  1/20  train loss 1.5696 acc 0.6682 | val loss 1.2339 acc 0.6933 f1 0.6944  (6 s)\n"}
+,{"stream_name":"stdout","time":114.035342945,"data":"[exp3_frozen] epoch  2/20  train loss 0.6217 acc 0.8657 | val loss 0.9778 acc 0.7222 f1 0.7211  (11 s)\n"}
+,{"stream_name":"stdout","time":118.337188241,"data":"[exp3_frozen] epoch  3/20  train loss 0.4547 acc 0.8942 | val loss 0.8924 acc 0.7600 f1 0.7589  (15 s)\n"}
+,{"stream_name":"stdout","time":122.677420734,"data":"[exp3_frozen] epoch  4/20  train loss 0.3746 acc 0.9107 | val loss 0.8470 acc 0.7578 f1 0.7557  (19 s)\n"}
+,{"stream_name":"stdout","time":127.080165793,"data":"[exp3_frozen] epoch  5/20  train loss 0.3302 acc 0.9181 | val loss 0.8065 acc 0.7622 f1 0.7600  (24 s)\n"}
+,{"stream_name":"stdout","time":131.491367899,"data":"[exp3_frozen] epoch  6/20  train loss 0.2974 acc 0.9250 | val loss 0.7888 acc 0.7644 f1 0.7635  (28 s)\n"}
+,{"stream_name":"stdout","time":135.976465013,"data":"[exp3_frozen] epoch  7/20  train loss 0.2701 acc 0.9318 | val loss 0.7562 acc 0.7733 f1 0.7726  (32 s)\n"}
+,{"stream_name":"stdout","time":140.458901639,"data":"[exp3_frozen] epoch  8/20  train loss 0.2491 acc 0.9377 | val loss 0.7615 acc 0.7756 f1 0.7756  (37 s)\n"}
+,{"stream_name":"stdout","time":145.009105933,"data":"[exp3_frozen] epoch  9/20  train loss 0.2337 acc 0.9428 | val loss 0.7537 acc 0.7756 f1 0.7752  (42 s)\n"}
+,{"stream_name":"stdout","time":149.63287256,"data":"[exp3_frozen] epoch 10/20  train loss 0.2212 acc 0.9460 | val loss 0.7339 acc 0.7867 f1 0.7849  (46 s)\n"}
+,{"stream_name":"stdout","time":154.366763997,"data":"[exp3_frozen] epoch 11/20  train loss 0.2111 acc 0.9486 | val loss 0.7368 acc 0.7844 f1 0.7840  (51 s)\n"}
+,{"stream_name":"stdout","time":159.312431295,"data":"[exp3_frozen] epoch 12/20  train loss 0.2018 acc 0.9509 | val loss 0.7200 acc 0.7889 f1 0.7887  (56 s)\n"}
+,{"stream_name":"stdout","time":164.368255083,"data":"[exp3_frozen] epoch 13/20  train loss 0.1956 acc 0.9530 | val loss 0.7202 acc 0.7844 f1 0.7847  (61 s)\n"}
+,{"stream_name":"stdout","time":169.455571028,"data":"[exp3_frozen] epoch 14/20  train loss 0.1891 acc 0.9564 | val loss 0.7181 acc 0.8000 f1 0.7992  (66 s)\n"}
+,{"stream_name":"stdout","time":174.248822509,"data":"[exp3_frozen] epoch 15/20  train loss 0.1846 acc 0.9566 | val loss 0.7101 acc 0.7933 f1 0.7924  (71 s)\n"}
+,{"stream_name":"stdout","time":178.922163183,"data":"[exp3_frozen] epoch 16/20  train loss 0.1809 acc 0.9578 | val loss 0.7151 acc 0.8000 f1 0.7993  (75 s)\n"}
+,{"stream_name":"stdout","time":183.469756826,"data":"[exp3_frozen] epoch 17/20  train loss 0.1786 acc 0.9588 | val loss 0.7140 acc 0.7978 f1 0.7964  (80 s)\n"}
+,{"stream_name":"stdout","time":188.020288042,"data":"[exp3_frozen] epoch 18/20  train loss 0.1766 acc 0.9597 | val loss 0.7100 acc 0.7978 f1 0.7956  (85 s)\n"}
+,{"stream_name":"stdout","time":192.494431296,"data":"[exp3_frozen] epoch 19/20  train loss 0.1751 acc 0.9604 | val loss 0.7105 acc 0.7978 f1 0.7956  (89 s)\n"}
+,{"stream_name":"stdout","time":196.785145556,"data":"[exp3_frozen] epoch 20/20  train loss 0.1744 acc 0.9604 | val loss 0.7102 acc 0.7978 f1 0.7956  (93 s)\n"}
+,{"stream_name":"stdout","time":196.785174665,"data":"[exp3_frozen] найкраща епоха за val acc: 14 (0.8000), ваги -\u003e /kaggle/working/exp3_frozen.pt\n"}
+,{"stream_name":"stdout","time":207.725130465,"data":"[exp4_frozen_aug] epoch  1/20  train loss 1.6438 acc 0.6423 | val loss 1.2305 acc 0.6933 f1 0.6939  (5 s)\n"}
+,{"stream_name":"stdout","time":212.706924171,"data":"[exp4_frozen_aug] epoch  2/20  train loss 0.6895 acc 0.8524 | val loss 0.9747 acc 0.7289 f1 0.7261  (10 s)\n"}
+,{"stream_name":"stdout","time":217.466519824,"data":"[exp4_frozen_aug] epoch  3/20  train loss 0.5243 acc 0.8718 | val loss 0.8840 acc 0.7622 f1 0.7615  (15 s)\n"}
+,{"stream_name":"stdout","time":222.327987964,"data":"[exp4_frozen_aug] epoch  4/20  train loss 0.4449 acc 0.8848 | val loss 0.8408 acc 0.7622 f1 0.7587  (20 s)\n"}
+,{"stream_name":"stdout","time":227.142726702,"data":"[exp4_frozen_aug] epoch  5/20  train loss 0.4065 acc 0.8920 | val loss 0.8112 acc 0.7778 f1 0.7744  (24 s)\n"}
+,{"stream_name":"stdout","time":232.024587057,"data":"[exp4_frozen_aug] epoch  6/20  train loss 0.3669 acc 0.8999 | val loss 0.7932 acc 0.7600 f1 0.7589  (29 s)\n"}
+,{"stream_name":"stdout","time":237.027843128,"data":"[exp4_frozen_aug] epoch  7/20  train loss 0.3446 acc 0.9057 | val loss 0.7521 acc 0.7911 f1 0.7892  (34 s)\n"}
+,{"stream_name":"stdout","time":241.913470407,"data":"[exp4_frozen_aug] epoch  8/20  train loss 0.3225 acc 0.9160 | val loss 0.7535 acc 0.7733 f1 0.7724  (39 s)\n"}
+,{"stream_name":"stdout","time":246.915413488,"data":"[exp4_frozen_aug] epoch  9/20  train loss 0.3091 acc 0.9162 | val loss 0.7527 acc 0.7822 f1 0.7809  (44 s)\n"}
+,{"stream_name":"stdout","time":251.878737939,"data":"[exp4_frozen_aug] epoch 10/20  train loss 0.2969 acc 0.9181 | val loss 0.7419 acc 0.7933 f1 0.7919  (49 s)\n"}
+,{"stream_name":"stdout","time":256.77269188,"data":"[exp4_frozen_aug] epoch 11/20  train loss 0.2859 acc 0.9193 | val loss 0.7370 acc 0.7756 f1 0.7741  (54 s)\n"}
+,{"stream_name":"stdout","time":261.629547043,"data":"[exp4_frozen_aug] epoch 12/20  train loss 0.2755 acc 0.9225 | val loss 0.7188 acc 0.7844 f1 0.7838  (59 s)\n"}
+,{"stream_name":"stdout","time":266.511420118,"data":"[exp4_frozen_aug] epoch 13/20  train loss 0.2699 acc 0.9250 | val loss 0.7165 acc 0.7867 f1 0.7851  (64 s)\n"}
+,{"stream_name":"stdout","time":271.4874007,"data":"[exp4_frozen_aug] epoch 14/20  train loss 0.2623 acc 0.9267 | val loss 0.7131 acc 0.7867 f1 0.7858  (69 s)\n"}
+,{"stream_name":"stdout","time":276.205905859,"data":"[exp4_frozen_aug] epoch 15/20  train loss 0.2628 acc 0.9261 | val loss 0.7090 acc 0.7956 f1 0.7933  (74 s)\n"}
+,{"stream_name":"stdout","time":281.082388697,"data":"[exp4_frozen_aug] epoch 16/20  train loss 0.2581 acc 0.9278 | val loss 0.7065 acc 0.7978 f1 0.7973  (78 s)\n"}
+,{"stream_name":"stdout","time":285.958929533,"data":"[exp4_frozen_aug] epoch 17/20  train loss 0.2529 acc 0.9295 | val loss 0.7073 acc 0.7911 f1 0.7869  (83 s)\n"}
+,{"stream_name":"stdout","time":290.759050248,"data":"[exp4_frozen_aug] epoch 18/20  train loss 0.2541 acc 0.9304 | val loss 0.7015 acc 0.7978 f1 0.7961  (88 s)\n"}
+,{"stream_name":"stdout","time":295.654892935,"data":"[exp4_frozen_aug] epoch 19/20  train loss 0.2515 acc 0.9318 | val loss 0.7003 acc 0.7978 f1 0.7958  (93 s)\n"}
+,{"stream_name":"stdout","time":300.454932992,"data":"[exp4_frozen_aug] epoch 20/20  train loss 0.2521 acc 0.9280 | val loss 0.6999 acc 0.8000 f1 0.7979  (98 s)\n"}
+,{"stream_name":"stdout","time":300.454964505,"data":"[exp4_frozen_aug] найкраща епоха за val acc: 20 (0.8000), ваги -\u003e /kaggle/working/exp4_frozen_aug.pt\n"}
+,{"stream_name":"stdout","time":306.434695668,"data":"Виправлено помилок exp3: 11, нових помилок у exp4: 20 (з 600 тестових)\n"}
+,{"stream_name":"stderr","time":312.089036557,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":312.089066502,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":312.254216247,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":312.254258771,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":313.080744754,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":313.241787349,"data":"[NbConvertApp] Writing 3418638 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":316.042956936,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":316.810113208,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":316.810146754,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":316.811372144,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":316.811688541,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":316.812038154,"data":"[NbConvertApp] Writing 457334 bytes to __results__.html\n"}
+]

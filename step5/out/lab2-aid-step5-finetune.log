@@ -1,0 +1,47 @@
+[{"stream_name":"stderr","time":6.6982769,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.698352793,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.620396224,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.620424018,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.620428978,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.6204327020000004,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.237196744,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.237246281000001,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.237252654,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.237256914,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":25.017064097,"data":"device: cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":25.017099186,"data":"outputs -\u003e /kaggle/working\n"}
+,{"stream_name":"stdout","time":52.117566562,"data":"Папка з класами: /kaggle/input/datasets/jiayuanchengala/aid-scene-classification-datasets/AID\n"}
+,{"stream_name":"stdout","time":52.117598539,"data":"Класів: 30, зображень: 10000 {'train': 8950, 'test': 600, 'val': 450}\n"}
+,{"stream_name":"stdout","time":114.299257672,"data":"torch.Size([10000, 3, 224, 224]) 1.40 GB\n"}
+,{"stream_name":"stdout","time":120.920880178,"data":"Вихід завдань 3–4: /kaggle/input/notebooks/nikitaryzhenko/lab2-aid-steps3-4\n"}
+,{"stream_name":"stdout","time":120.920925307,"data":"Стартова модель для fine-tuning: exp4_frozen_aug\n"}
+,{"stream_name":"stdout","time":128.386020801,"data":"Навчається: 8,409,118 з 11,191,902 параметрів (до fine-tuning: 15,390)\n"}
+,{"stream_name":"stdout","time":154.921175061,"data":"[exp5_finetune] epoch  1/15  train loss 0.2840 acc 0.9139 | val loss 0.5432 acc 0.8533 f1 0.8558  (26 s)\n"}
+,{"stream_name":"stdout","time":160.387510056,"data":"[exp5_finetune] epoch  2/15  train loss 0.1264 acc 0.9593 | val loss 0.4886 acc 0.8822 f1 0.8823  (32 s)\n"}
+,{"stream_name":"stdout","time":165.770251144,"data":"[exp5_finetune] epoch  3/15  train loss 0.0871 acc 0.9742 | val loss 0.4567 acc 0.8800 f1 0.8811  (37 s)\n"}
+,{"stream_name":"stdout","time":171.239069808,"data":"[exp5_finetune] epoch  4/15  train loss 0.0569 acc 0.9839 | val loss 0.4078 acc 0.8867 f1 0.8871  (43 s)\n"}
+,{"stream_name":"stdout","time":176.731181054,"data":"[exp5_finetune] epoch  5/15  train loss 0.0445 acc 0.9869 | val loss 0.4265 acc 0.8778 f1 0.8780  (48 s)\n"}
+,{"stream_name":"stdout","time":182.247135836,"data":"[exp5_finetune] epoch  6/15  train loss 0.0330 acc 0.9906 | val loss 0.4166 acc 0.8933 f1 0.8968  (54 s)\n"}
+,{"stream_name":"stdout","time":187.751709435,"data":"[exp5_finetune] epoch  7/15  train loss 0.0278 acc 0.9909 | val loss 0.4139 acc 0.8867 f1 0.8882  (59 s)\n"}
+,{"stream_name":"stdout","time":193.316508548,"data":"[exp5_finetune] epoch  8/15  train loss 0.0224 acc 0.9926 | val loss 0.3865 acc 0.8867 f1 0.8880  (65 s)\n"}
+,{"stream_name":"stdout","time":198.930300734,"data":"[exp5_finetune] epoch  9/15  train loss 0.0154 acc 0.9964 | val loss 0.4124 acc 0.8911 f1 0.8927  (70 s)\n"}
+,{"stream_name":"stdout","time":204.575906913,"data":"[exp5_finetune] epoch 10/15  train loss 0.0118 acc 0.9971 | val loss 0.3756 acc 0.9022 f1 0.9045  (76 s)\n"}
+,{"stream_name":"stdout","time":210.256560043,"data":"[exp5_finetune] epoch 11/15  train loss 0.0128 acc 0.9965 | val loss 0.3906 acc 0.8911 f1 0.8932  (82 s)\n"}
+,{"stream_name":"stdout","time":215.928092177,"data":"[exp5_finetune] epoch 12/15  train loss 0.0101 acc 0.9983 | val loss 0.3765 acc 0.8978 f1 0.8983  (87 s)\n"}
+,{"stream_name":"stdout","time":221.69628639,"data":"[exp5_finetune] epoch 13/15  train loss 0.0083 acc 0.9984 | val loss 0.3730 acc 0.8956 f1 0.8974  (93 s)\n"}
+,{"stream_name":"stdout","time":227.55968124,"data":"[exp5_finetune] epoch 14/15  train loss 0.0089 acc 0.9980 | val loss 0.3806 acc 0.8956 f1 0.8978  (99 s)\n"}
+,{"stream_name":"stdout","time":233.493915432,"data":"[exp5_finetune] epoch 15/15  train loss 0.0093 acc 0.9980 | val loss 0.3686 acc 0.8933 f1 0.8951  (105 s)\n"}
+,{"stream_name":"stdout","time":233.493961605,"data":"[exp5_finetune] найкраща епоха за val acc: 10 (0.9022), ваги -\u003e /kaggle/working/exp5_finetune.pt\n"}
+,{"stream_name":"stdout","time":239.665415475,"data":"Виправлено помилок exp4_frozen_aug: 76, нових помилок після fine-tuning: 8 (з 600 тестових)\n"}
+,{"stream_name":"stderr","time":244.8136615,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":244.813719223,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":244.970206979,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":244.970238228,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":245.703691316,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":245.796620414,"data":"[NbConvertApp] Writing 445619 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":248.194947144,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":248.872028877,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":248.872085112,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":248.872337997,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":248.872618195,"data":"[NbConvertApp] Writing 514114 bytes to __results__.html\n"}
+]

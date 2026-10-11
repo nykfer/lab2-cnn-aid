@@ -1,0 +1,20 @@
+{
+  "id": "nikitaryzhenko/lab2-aid-students-200ep",
+  "title": "lab2-aid-students-200ep",
+  "code_file": "Lab2_AID_students_200ep.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "jiayuanchengala/aid-scene-classification-datasets"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "nikitaryzhenko/lab2-aid-step5-finetune"
+  ],
+  "model_sources": []
+}
